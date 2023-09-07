@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    build: .
+    build: node-image
     ports: 
       - "5000:8080"
     restart: on-failure
